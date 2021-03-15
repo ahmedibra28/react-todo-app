@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap');
+
+h3 {
+  font-family: 'Ravi Prakash', cursive;
+}
+
+.form-control {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  transition: 1s ease-in-out;
+}
+
+body {
+  background: #f9f9f9;
+  background: -webkit-radial-gradient(center, #f9f9f9, #212529);
+  background: -moz-radial-gradient(center, #f9f9f9, #212529);
+  background: radial-gradient(ellipse at center, #f9f9f9, #212529);
+}
+.list-zoom {
+  transition: 0.5s ease-in-out;
+}
+.list-zoom:hover {
+  transform: scale(1.05);
+}
+.btn-action {
+  cursor: pointer;
+}
